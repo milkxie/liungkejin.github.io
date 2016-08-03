@@ -14,7 +14,6 @@ highlight: true
 timezone: Asia/Shanghai
 
 markdown: kramdown
-sudo gem install kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
