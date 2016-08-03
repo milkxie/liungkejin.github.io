@@ -7,4 +7,4 @@ pulished: true
 excerpt_separator: "```"
 ---
 
-
+$$y=x$$
