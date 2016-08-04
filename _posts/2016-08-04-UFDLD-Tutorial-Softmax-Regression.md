@@ -46,7 +46,9 @@ $$
 
 The softmax cost function is similar, except that we now sum over the $K$ differente possiblility of the class label. Note that in softmax regression, we have that
 
-$$\frac{1}{2}$$
+$$
+P(y^{(i)}=k|x^{(i)};\theta)=\frac{\exp(\theta^{(k){\rm{T}}}x^{(i)})}{\sum_{j=1}^K\exp(\theta^{(j){\rm{T}}}x^{(i)})}
+$$
 
 We can solve the minimum of $J(\theta)$ iteratively similar to the logistic regression. The gradient is:
 
