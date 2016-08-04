@@ -13,8 +13,8 @@ excerpt_separator: "```"
 
 In the softmax regression setting, we are interested in multi-class classification, and so the **label** $\color{black}{y}$ can take on $\color{black}{K}$ different values, rather than only two. Thus, in our **training set** $\color{black}{\{(x^{(i)},y^{(1)}),...,(x^{(m)},y^{(m)})\},}$ the corresponding $\color{black}{y^{(i)}\in\{1,2,...,K\}}.$
 
-Given a test input $\color{black}x$, we need a hypothesis to estimate the probability that 
-$\color{black}P(y=k|x)$ for each value of $color{black}{k=1,...,K.}$ In other words,we want to estimate the probability of the class label taking on each of the $\color{black}\color{black}{K}$ different possible values. So the ouput of our hypothesis must be a $\color{black}K$-dimentional vector, like this
+Given a test input $\color{black}{x}$, we need a hypothesis to estimate the probability that 
+$\color{black}{P(y=k|x)}$ for each value of $color{black}{k=1,...,K.}$ In other words,we want to estimate the probability of the class label taking on each of the $\color{black}{K}$ different possible values. So the ouput of our hypothesis must be a $\color{black}{K}$-dimentional vector, like this
 
 $$\color{black}{h(\theta)=\begin{bmatrix}P(y=1|x;\theta)\\
                            P(y=2|x;\theta)\\
