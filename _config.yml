@@ -8,7 +8,7 @@ rss_url:
 
 # Build settings
 
-highlight: false
+highlight: true
 #highlighter: rouge
 
 timezone: Asia/Shanghai
