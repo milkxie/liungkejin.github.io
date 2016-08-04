@@ -116,7 +116,7 @@ h_\theta(x)
 \end{align}}
 $$
 
-Furthermore, replacing $\color{black}{\theta^{(1)}-\theta^{(2)}}$ with a single parameter vector $\color{\theta',}$ we find that the **softmax regression** reduces to the **logistic regression**.
+Furthermore, replacing $\color{black}{\theta^{(1)}-\theta^{(2)}}$ with a single parameter vector $\color{black}{-\theta',}$ we find that the **softmax regression** reduces to the **logistic regression**.
 
 
 
