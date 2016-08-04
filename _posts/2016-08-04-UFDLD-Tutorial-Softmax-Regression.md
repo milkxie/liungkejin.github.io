@@ -32,7 +32,7 @@ Here $\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \mathbb{R}$ are the paramete
 
 We now define the **cost function** that we'll use for soft regression
 
-$$\frac{1}{2}$$
+$$\frac{{\rm exp}(\theta^{(k){\rm T}}x^{(i)})}{\sum_{j=1}^K{\rm exp}(\theta^{(j){\rm T}}x^{(i)})}$$
 
 Note that the **logistic regression** is a special case of this
 
@@ -45,7 +45,7 @@ $$
 
 The softmax cost function is similar, except that we now sum over the $K$ differente possiblility of the class label. Note that in softmax regression, we have that
 
-$$frac{1}{2}$$
+$$\frac{1}{2}$$
 
 We can solve the minimum of $J(\theta)$ iteratively similar to the logistic regression. The gradient is:
 
