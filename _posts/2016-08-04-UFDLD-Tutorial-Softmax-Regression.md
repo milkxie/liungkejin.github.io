@@ -61,6 +61,63 @@ $$
 \Bigg{]}\end{align}}
 $$
 
+##Properties of softmax regression parameterization
+
+Softmax regression has a unusual property that we can use it to simplify our parameters $\color{black}{\theta.}$ By subtracting some fixed vector $\color{black}{\psi,}$ we obtain the form $(\color{black}{\theta^{(j)}-\psi})$ for every $\color{black}{\theta^{(j)}.}$ Our hypothesis now estimates the specific class probability as
+
+$$
+\color{black}{\begin{align}
+P(y^{(i)}=k\mid x^{(i)};\theta)&=\frac
+{\exp((\theta^{(k)}-\psi)^{\rm{T}}x^{(i)})}
+{\sum_{j=1}^K\exp((\theta^{(j)}-\psi)^{(T)}x^{(i)})}\\
+&=\frac
+{\exp(\theta^{(k){\rm{T}}}x^{(i)})\exp(-\psi^{\rm{T}}x^{(i)})}
+{\sum_{j=1}^K\exp(\theta^{(j)\rm{T}}x^{(i)})\exp(-\psi^{\rm{T}}x^{(i)})}\\
+&=\frac
+{\exp(\theta^{(k)\rm{T}}x^{(i)})}{\sum_{j=1}^K\exp(\theta^{(j)\rm{T}}x^{(i)})}
+\end{align}}
+$$   
+
+The term "overparameterized" is used to describe the situation in which substracting
+$\color{black}{\psi}$ dose not affect our hypothesis predictions at all! There are multiole parameter settings can resulting in the same hypothesis function 
+$\color{black}{h_\theta}$.
+
+In the case, the minimizer of the $\color{black}{J(\theta)}$ is not unique. We can also minimize $\color{black}{J(\theta)}$ by 
+$\color{black}{(\theta^{(1)}-\psi,\theta^{(2)}-\psi,...,\theta^{(k)}-\psi)}$ for any value of $\color{black}{\psi}$ to get the same result.(Interestingly, 
+$\color{black}{J(\theta)}$ is still convex, and thus gradient descent will not run into local optima problems. But the Hessian is singular/non-invertible, which causes a straightforward implementation of Newton’s method to run into numerical problems.)
+
+## Relationship to Logistic Regression
+
+It is easy to show that the **softmax regression** is a generalization of **logstic regression**. When $\color{black}{K=2}$, we assum the setting
+$\color{black}{\psi=\theta^{(2)}}$ 
+
+$$\color{black}
+{\begin{align}
+h_\theta(x)
+&=\frac
+{1}{\exp(\theta^{(1)\rm{T}}x^{(i)})+\exp(\theta^{(2)\rm{T}}x^{(i)})}\cdot
+\begin{bmatrix}
+\exp(\theta^{(1)\rm{T}}x^{(i)})\\
+\exp(\theta^{(2)\rm{T}}x^{(i)})
+\end{bmatrix}\\
+&=\frac
+{1}{\exp((\theta^{(1)\rm{T}}-\theta^{(2)\rm{T}})x^{(i)})+\exp(\vec{0}\cdot x^{(i)})}\cdot
+\begin{bmatrix}
+\exp((\theta^{(1)\rm{T}}-\theta^{(2)\rm{T}})x^{(i)})\\
+\exp(\vec{0}\cdot x^{(i)})
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+\frac
+{1}{1+\exp((\theta^{(1)\rm{T}}-\theta^{(2)\rm{T}})x^{(i)})}\\
+1-\frac
+{1}{1+\exp((\theta^{(1)\rm{T}}-\theta^{(2)\rm{T}})x^{(i)})}
+\end{bmatrix}
+\end{align}}
+$$
+
+Furthermore, replacing $\color{black}\theta^{(1)}-\theta^{(2)}$ with a single parameter vector $\color{black}\theta',$ we find that the **softmax regression** reduces to the **logistic regression**.
+
 
 
 
