@@ -26,7 +26,7 @@ $$h(\theta)=\begin{bmatrix}P(y=1|x;\theta)\\
                            \vdots         \\
                            {\rm{exp}}(\theta^{(K){\rm{T}}}x)\end{bmatrix}$$
 
-Here $\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \rm I\!R$ are the parameters which require by learning. Notice that the term  $\dfrac{1}{\sum_{j=1}^{K}{\rm{exp}}(\theta^{(j){\rm{T}}}x)}$ normalizes the distribution, so that it sums to one.
+Here $\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \mathbb{R}$ are the parameters which require by learning. Notice that the term  $\dfrac{1}{\sum_{j=1}^{K}{\rm{exp}}(\theta^{(j){\rm{T}}}x)}$ normalizes the distribution, so that it sums to one.
 
 ## Cost Function
 
