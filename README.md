@@ -2,4 +2,4 @@
 
 > Pain is inevitable. Suffering is optional.
 
-<--!!![Blog](/assets/img/blog.png)!-->
+<!-- ![Blog](/assets/img/blog.png) --!>
