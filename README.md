@@ -1,5 +1,5 @@
-# Kejin
+# Milk
 
-> 自己选的路，跪着也要走下去
+> Pain is inevitable. Suffering is optional.
 
-![Blog](/assets/img/blog.png)
+<--!!![Blog](/assets/img/blog.png)!-->
