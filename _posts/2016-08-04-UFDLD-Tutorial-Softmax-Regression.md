@@ -61,9 +61,9 @@ $$
 \Bigg{]}\end{align}}
 $$
 
-##Properties of softmax regression parameterization
+## Properties of softmax regression parameterization
 
-Softmax regression has a unusual property that we can use it to simplify our parameters $\color{black}{\theta.}$ By subtracting some fixed vector $\color{black}{\psi,}$ we obtain the form $(\color{black}{\theta^{(j)}-\psi})$ for every $\color{black}{\theta^{(j)}.}$ Our hypothesis now estimates the specific class probability as
+Softmax regression has a unusual property that we can use it to simplify our parameters $\color{black}{\theta.}$ By subtracting some fixed vector $\color{black}{\psi,}$ we obtain the form $\color{black}{(\theta^{(j)}-\psi)}$ for every $\color{black}{\theta^{(j)}.}$ Our hypothesis now estimates the specific class probability as
 
 $$
 \color{black}{\begin{align}
@@ -116,7 +116,7 @@ h_\theta(x)
 \end{align}}
 $$
 
-Furthermore, replacing $\color{black}\theta^{(1)}-\theta^{(2)}$ with a single parameter vector $\color{black}\theta',$ we find that the **softmax regression** reduces to the **logistic regression**.
+Furthermore, replacing $\color{black}{\theta^{(1)}-\theta^{(2)}}$ with a single parameter vector $\color{\theta',}$ we find that the **softmax regression** reduces to the **logistic regression**.
 
 
 
