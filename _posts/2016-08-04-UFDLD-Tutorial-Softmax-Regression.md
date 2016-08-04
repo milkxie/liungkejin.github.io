@@ -32,8 +32,7 @@ Here $\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \rm I\!R$ are the parameters
 
 We now define the **cost function** that we'll use for soft regression
 
-$$J(\theta)=-\Bigg{[}\sum\limits_{i=1}^m\sum\limits_{k=1}^K1\bigg\{y^{(i)}=k\bigg\}{\rm{log}}\frac{{\rm{exp}}(\theta^{(k){\rm{T}}}x^{(i)})}{\sum_{j=1}^K{\rm{exp}}(\theta^{(j){\rm{T}}}x^{(i)})}\Bigg{]}
-$$
+$$\frac{1}{2}$$
 
 Note that the **logistic regression** is a special case of this
 
