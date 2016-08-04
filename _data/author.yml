@@ -1,9 +1,9 @@
 # Author settings
-name: 梁窠金
-title: Android 开发工程师
-address: 中国, 上海
-email: liungkejin@foxmail.com
-github: liungkejin
+name: Mingkun Xie
+title: student
+address: Nanjing,China
+email: m18759270885@163.com
+github: milkxie
 gavatar: /assets/img/avatar.JPG
 workHistory:
 - work3:
@@ -32,12 +32,12 @@ workHistory:
 
 educationHistory:
 - education1:
-  organization: 安徽大学
-  degree: 学士
-  major: 化学工程与工艺
-  started: 2010
-  duration: (2010.9 - 2014.7)
-  description: 自学 C/C++, Java, Linux, 培训并参加过 ACM 比赛
+  organization: Nanjing University of Aeronautics and Astronautics
+  degree: bachelor
+  major: Computer Science
+  started: 2014
+  duration: (2014.9 - now)
+  description: One year in Machine learning lab.
 languages:
 - language1:
   name: 中文
