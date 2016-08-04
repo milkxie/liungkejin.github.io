@@ -28,6 +28,8 @@ $$\color{black}{h(\theta)=\begin{bmatrix}P(y=1|x;\theta)\\
 
 Here $\color{black}{\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \mathbb{R}}$ are the parameters which require by learning. Notice that the term  $\color{black}{\dfrac{1}{\sum_{j=1}^{K}{\rm{exp}}(\theta^{(j){\rm{T}}}x)}}$ normalizes the distribution, so that it sums to one.
 
+```
+
 ## Cost Function
 
 We now define the **cost function** that we'll use for soft regression
