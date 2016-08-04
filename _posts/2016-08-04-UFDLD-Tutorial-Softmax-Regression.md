@@ -52,11 +52,14 @@ $$
 
 We can solve the minimum of $J(\theta)$ iteratively similar to the logistic regression. The gradient is:
 
-$$\begin{align}
+$$
+\begin{align}
 \nabla_{\theta^{(k)}}J(\theta)
-&=-\Bigg{[}\sum\limits_{i=1}^m\sum\limits_{k=1}^K1\bigg\{y^{(i)}=k\bigg\}\dfrac{\sum_{j=1}^K{\rm{exp}}(\theta^{(j)T}x^{(i)})}{{\rm{exp}}(\theta^{(k)T}x^{(i)})}\cdot\dfrac{{\rm{exp}}(\theta^{(k)T}x^{(i)})x^{(i)}\sum_{j=1}^K{\rm{exp}}(\theta^{(j)T}x^{(i)})-{\rm{exp}}(\theta^{(k)T}x^{(i)}){\rm{exp}}(\theta^{(k)T}x^{(i)})(x^{(i)})}{\bigg{(}\sum_{j=1}^K{\rm{exp}}(\theta^{(j)T}x^{(i)})\bigg{)}^2}\Bigg{]}\\
+&=-\Bigg{[}\sum\limits_{i=1}^m\sum\limits_{k=1}^K1\bigg\{y^{(i)}=k\bigg\}\frac{\sum_{j=1}^K\exp(\theta^{(j){\rm{T}}}x^{(i)})}{\exp(\theta^{(k){\rm{T}}}x^{(i)})}\cdot\frac{\exp(\theta^{(k){\rm{T}}}x^{(i)})x^{(i)}\sum_{j=1}^K\rm(\theta^{(j){\rm{T}}}x^{(i)})-\exp(\theta^{(k){\rm{T}}}x^{(i)})\exp(\theta^{(k){\rm{T}}}x^{(i)})(x^{(i)})}{\bigg{(}\sum_{j=1}^K\exp(\theta^{(j){\rm{T}}}x^{(i)})\bigg{)}^2}\Bigg{]}\\
 &=-\sum\limits_{i=1}^mx^{(i)}\Bigg{[}\sum\limits_{k=1}^K1\bigg\{y^{(i)}=k\bigg\}-\sum\limits_{k=1}^K\bigg\{y^{(i)}=k\bigg\}P(y^{(i)}=k|x^{(i)};\theta)\Bigg{]}\\
-&=-\sum\limits_{i=1}^mx^{(i)}\Bigg{[}\bigg\{y^{(i)}=k\bigg\}-P(y^{(i)}=k|x^{(i)};\theta)\Bigg{]}\end{align}$$
+&=-\sum\limits_{i=1}^mx^{(i)}\Bigg{[}\bigg\{y^{(i)}=k\bigg\}-P(y^{(i)}=k|x^{(i)};\theta)
+\Bigg{]}\end{align}
+$$
 
 
 
