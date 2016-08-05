@@ -44,22 +44,22 @@ languages:
   proficiency: Native
 - language2:
   name: English
-  proficiency: Limit
+  proficiency: Master
 programmingSkills:
 - Java:
-  name: Java/Android
+  name: Python
   percentage: 90%
 - Bash:
-  name: Bash Shell
+  name: Matlab\Octave
   percentage: 90%
 - CPP:
   name: C/C++
-  percentage: 70%
+  percentage: 80%
 - PHP:
-  name: PHP
-  percentage: 30%
+  name: Java
+  percentage: 60%
 - Python:
-  name: Python
+  name: R
   percentage: 30%
 - Kotlin:
   name: Kotlin
