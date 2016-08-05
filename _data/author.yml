@@ -46,21 +46,19 @@ languages:
   name: English
   proficiency: Master
 programmingSkills:
-- Java:
+- Python:
   name: Python
   percentage: 90%
-- Bash:
+- Matlab:
   name: Matlab\Octave
   percentage: 90%
 - CPP:
   name: C/C++
   percentage: 80%
-- PHP:
+- Java:
   name: Java
   percentage: 60%
-- Python:
+- R:
   name: R
   percentage: 30%
-- Kotlin:
-  name: Kotlin
-  percentage: 70%
+
