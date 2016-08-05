@@ -45,8 +45,8 @@
 }
 
 .bloghead img , .authorimage img{
-    height: 100px;
-    padding: 60px;
+    height: 80px;
+    padding: 40px;
     vertical-align: top;
     margin-right: 10px;
 }
@@ -198,8 +198,8 @@ section.author, section.share {
 }
 
 div.authorimage {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 160px;
     border-radius: 50%;
     -webkit-background-size: cover !important;
     background-size: cover !important;
