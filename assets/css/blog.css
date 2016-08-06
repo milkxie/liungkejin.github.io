@@ -198,8 +198,8 @@ section.author, section.share {
 }
 
 div.authorimage {
-    width: 100px;
-    height: 160px;
+    width: 150px;
+    height: 220px;
     border-radius: 50%;
     -webkit-background-size: cover !important;
     background-size: cover !important;
