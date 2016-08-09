@@ -1,6 +1,6 @@
 ---
 layout: post_layout
-title: UFDLD-Tutorial-Multi-Layer Neural Network
+title: UFDLD Tutorial Multi-Layer Neural Network
 time: 2016年08月04日 星期四
 location: 南京
 published: true
@@ -14,7 +14,7 @@ $\color{black}{W,b.}$
 
 We first describe the simplest neural network, one which comprise a single **neuron**, just like the following diagram.
 
-<img src="<img src="/assets/img/single_neuron.png" width="300px" />" />
+<img src="<img src="/assets/img/single_neuron.png" width="400px" />" />
 
 This "neuron" is a computational unit that take as input $\color{black}{x_1,x_2,x_3}$(and a +1 intercept term), and outputs $\color{black}{h_{W,b}(x)}$, where
 
@@ -25,6 +25,8 @@ h_{W,b}(x)=f(W^Tx)=f(\sum_{i=1}^3W_ix_i+b),
 $$
 
 $\color{black}{f(\cdot)}$ in the above equation is called **activation function**. There are several choice about it
+
+```
 
 **sigmoid function**:
 
@@ -48,14 +50,14 @@ Note that we use the sigmoid function almost time here.
 
 Here are plots of the three mentioned functions:
 
-<img src="<img src="/assets/img/activation_functions.png" width="300px" />" />
+<img src="<img src="/assets/img/activation_functions.png" width="400px" />" />
 
 
 # Neural Network model
 
 A neural network comprises many of simple neurons, so that the output of a neuron can be the input of another.
 
-<img src="<img src="/assets/img/simple_network.png" width="300px" />" />
+<img src="<img src="/assets/img/simple_network.png" width="400px" />" />
 
 The circles labeled "+1" are called **bias units**.The leftmost layer of the network is called the **input layer**, and the rightmost layer the **output layer**. The middle layer of nodes is called the **hidden layer** ( possibly not only one layer), because its values are not observed in the **training set**.   
 
@@ -172,7 +174,7 @@ Intuitively, for a specific parameter $\color{black}{W_{ji}^{(l)}}$, the 3rd ste
 Then, we will provide a more mathematic perspective of the **backpropagation** algorithm, one which applies the **chain rule** to compute partial derivatives. For simplicity, we describe the process with a specific example which computes the 
 $\color{black}{\frac{\partial}{\partial W_{22}^{(2)}}J(W,b)}$ in the following disagram.
 
-<img src="<img src="/assets/img/multi-neural_network.png" width="300px" />" />
+<img src="<img src="/assets/img/multi-neural_network.png" width="400px" />" />
 
 According to statements in the above, we can easily write 
 $\color{black}{\frac{\partial}{\partial W_{22}^{(2)}}J(W,b)}$
