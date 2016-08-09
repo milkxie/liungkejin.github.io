@@ -1,15 +1,13 @@
 ---
 layout: post_layout
-title: UFDLD-Tutorial-Softmax-Regression
+title: UFDLD Tutorial Softmax Regression
 time: 2016年08月04日 星期四
 location: 南京
 pulished: true
 excerpt_separator: "```"
 ---
 
-# Softmax Regression
-
-## Hypothesis
+# Hypothesis
 
 In the softmax regression setting, we are interested in multi-class classification, and so the **label** $\color{black}{y}$ can take on $\color{black}{K}$ different values, rather than only two. Thus, in our **training set** $\color{black}{\{(x^{(i)},y^{(1)}),...,(x^{(m)},y^{(m)})\},}$ the corresponding $\color{black}{y^{(i)}\in\{1,2,...,K\}}.$
 
@@ -28,7 +26,6 @@ $$\color{black}{h(\theta)=\begin{bmatrix}P(y=1|x;\theta)\\
 
 Here $\color{black}{\theta^{(1)},\theta^{(2)},...,\theta^{(K)}\in \mathbb{R}}$ are the parameters which require by learning. Notice that the term  $\color{black}{\dfrac{1}{\sum_{j=1}^{K}{\rm{exp}}(\theta^{(j){\rm{T}}}x)}}$ normalizes the distribution, so that it sums to one.
 
-```
 
 ## Cost Function
 
