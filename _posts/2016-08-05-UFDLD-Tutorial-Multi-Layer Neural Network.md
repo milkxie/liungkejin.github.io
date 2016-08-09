@@ -4,7 +4,7 @@ title: UFDLD Tutorial Multi-Layer Neural Network
 time: 2016年08月04日 星期四
 location: 南京
 published: true
-excerpt_separator: "```"
+excerpt_separator: "##"
 ---
 
 # Introduction
@@ -26,7 +26,6 @@ $$
 
 $\color{black}{f(\cdot)}$ in the above equation is called **activation function**. There are several choice about it
 
-```
 
 **sigmoid function**:
 
@@ -53,7 +52,7 @@ Here are plots of the three mentioned functions:
 <img src="/assets/img/activation_functions.png" width="400px" />
 
 
-# Neural Network model
+## Neural Network model
 
 A neural network comprises many of simple neurons, so that the output of a neuron can be the input of another.
 
@@ -70,7 +69,7 @@ $\color{black}{W^{(2)}\in \mathbf R^{1\times 3}.}$ We also let $\color{black}{s_
 
 We will write $\color{black}{a_i^{(l)}}$ to denote the **activation** of unit 
 $\color{black}{i}$ in layer $\color{black}{l.}$ Conventionally, we also use 
-$\color{black}{a_i^{(1)}=x_i.}$ In this example, we show the computations of our neural network with a fixed setting of the parameters $color{black}{W,b}$
+$\color{black}{a_i^{(1)}=x_i.}$ In this example, we show the computations of our neural network with a fixed setting of the parameters $\color{black}{W,b}$
 
 $$\color{black}{\begin{align}
 a_1^{(2)}&=f(W_{11}^{(1)}x_1+W_{12}^{(1)}x_2+W_{13}^{(1)}x_3+b_1^{(1)})\\
@@ -101,7 +100,7 @@ h_{W,b}(x)&=a^{(3)}=f(z^{(3)})
 \end{align}}$$
 
 
-# Backpropagation Algorithm
+## Backpropagation Algorithm
 
 Given a training set $\color{black}{\{(x^{(1)},y^{(1)}),...,(x^{(m)},y^{(m)})\}}$ of $\color{black}{m}$ training example, we can define the cost function using the error measure **(one-half) squared-error cost**
 
