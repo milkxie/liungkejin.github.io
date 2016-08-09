@@ -4,7 +4,7 @@ title: UFDLD Tutorial Softmax Regression
 time: 2016年08月04日 星期四
 location: 南京
 pulished: true
-excerpt_separator: "```"
+excerpt_separator: "##"
 ---
 
 # Hypothesis
