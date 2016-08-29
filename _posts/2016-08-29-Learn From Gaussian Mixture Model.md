@@ -110,7 +110,7 @@ $$\color{black}{\ln p(X\mid \theta)\ge \sum\limits_Z q(Z)\ln\dfrac{p(X,Z\mid\the
 2. Find $\color{black}{\theta^* = \arg\max\limits_\theta G(\theta\mid\theta_0)}$  
 <img src="EM_algorithm1.png" width="400px" />
 
-3. Find a new lower bound $\color{black}{G}$ with $\theta_1\leftarrow\theta^*$  
+3. Find a new lower bound $\color{black}{G}$ with $\color{black}{\theta_1\leftarrow\theta^*}$  
 <img src="EM_algorithm2.png" width="400px" />
 
 4. Find $\color{black}{\theta^*=\arg\max\limits_\theta G(\theta\mid\theta_1)}$  
