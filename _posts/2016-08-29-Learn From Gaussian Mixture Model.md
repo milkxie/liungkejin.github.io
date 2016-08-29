@@ -59,7 +59,7 @@ It turns out that we cannot solve the problem analytically. This implies we can 
 
 As follow diagram, we can easily get the inequality equation $\color{black}{f(\dfrac{x_1+x_2}{2})\le\dfrac{f(x_1)+f(x_2)}{2}}$ , the special case of the Jensen's inequality.
 
-<img src="Jensen_inequality.png" width="400px" />
+<img src="/assets/img/Jensen_inequality.png" width="400px" />
 
 Now we generalize this idea to any posotively weighted cases or multiple points as long as the function is convex. We have
 
@@ -108,16 +108,16 @@ Note that $\color{black}{q(Z)}$ is a valid probability distribution over $\color
 $$\color{black}{\ln p(X\mid \theta)\ge \sum\limits_Z q(Z)\ln\dfrac{p(X,Z\mid\theta)}{q(Z)}}$$  
 
 2. Find $\color{black}{\theta^* = \arg\max\limits_\theta G(\theta\mid\theta_0)}$  
-<img src="EM_algorithm1.png" width="400px" />
+<img src="/assets/img/EM_algorithm1.png" width="400px" />
 
 3. Find a new lower bound $\color{black}{G}$ with $\color{black}{\theta_1\leftarrow\theta^*}$  
-<img src="EM_algorithm2.png" width="400px" />
+<img src="/assets/img/EM_algorithm2.png" width="400px" />
 
 4. Find $\color{black}{\theta^*=\arg\max\limits_\theta G(\theta\mid\theta_1)}$  
-<img src="EM_algorithm3.png" width="400px" />
+<img src="/assets/img/EM_algorithm3.png" width="400px" />
 
 5. Repeat until converged  
-<img src="EM_algorithm4.png" width="400px" />
+<img src="/assets/img/EM_algorithm4.png" width="400px" />
 
 
 
