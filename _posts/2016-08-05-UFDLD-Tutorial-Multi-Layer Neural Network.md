@@ -1,10 +1,10 @@
 ---
 layout: post_layout
 title: UFDLD Tutorial Multi-Layer Neural Network
-time: 2016年08月04日 星期四
-location: 南京
+time: 2016.8.10 Wednesday
+location: Nanjing
 published: true
-excerpt_separator: "##"
+excerpt_separator: "#"
 ---
 
 # Introduction
