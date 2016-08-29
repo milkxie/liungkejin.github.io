@@ -7,7 +7,7 @@ pulished: true
 excerpt_separator: "##"
 ---
 
-# Hypothesis
+## Hypothesis
 
 In the softmax regression setting, we are interested in multi-class classification, and so the **label** $\color{black}{y}$ can take on $\color{black}{K}$ different values, rather than only two. Thus, in our **training set** $\color{black}{\{(x^{(i)},y^{(1)}),...,(x^{(m)},y^{(m)})\},}$ the corresponding $\color{black}{y^{(i)}\in\{1,2,...,K\}}.$
 
