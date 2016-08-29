@@ -21,7 +21,7 @@ $\color{black}{\Sigma}$ Covariance matrix
 * **Off-diagonal terms**: correlation
 * Properties of Covariance Matrix $\color{black} {\Sigma}$
    1. $\color{black} {\Sigma}$ is Symmetric and Positive Definite.
-   2. Diagonalization: $\color{black} {\Sigma}$ can be decomposed in the form of $\color{black}{{\rm{UDU}}^T}.$($\color{black}{\rm D}$ is a Diagonal matrix.)   
+   2. Diagonalization: $\color{black} {\Sigma}$ can be decomposed in the form of $\color{black}{UDU^T}.$($\color{black}{\rm D}$ is a Diagonal matrix.)   
 
 
 ## MLE of Multivariate Gaussian
@@ -64,7 +64,7 @@ $$\color{black}{
   \hat\mu,\hat\Sigma=\arg\max_{\mu.\Sigma}\sum_{i=1}^N \Big\{\dfrac{1}{2}(x_i-\mu)^T\Sigma^{-1}(x_i-\mu)+\dfrac{1}{2}\ln \vert\Sigma\vert \Big\}
   }$$ 
 
-Contionally we use the cost function $\color{black}J,$
+Contionally we use the cost function $\color{black}{J,}$
 
 $$\color{black}{
 J(\mu,\Sigma)=\sum_{i=1}^N \Big\{\dfrac{1}{2}(x_i-\mu)^T\Sigma^{-1}(x_i-\mu)+\dfrac{1}{2}\ln \vert\Sigma\vert \Big\}
@@ -72,9 +72,9 @@ J(\mu,\Sigma)=\sum_{i=1}^N \Big\{\dfrac{1}{2}(x_i-\mu)^T\Sigma^{-1}(x_i-\mu)+\df
 
 We apply the partial derivative to find the optimum,
 
-1. $\dfrac{\partial J}{\partial\mu}\rightarrow \hat\mu$
+1. $\color{black}{\dfrac{\partial J}{\partial\mu}\rightarrow \hat\mu}$
 
-2. $\dfrac{\partial J(\hat\mu,\Sigma)}{\partial\Sigma}\rightarrow \hat\Sigma$
+2. $\color{black}{\dfrac{\partial J(\hat\mu,\Sigma)}{\partial\Sigma}\rightarrow \hat\Sigma}$
 
 Finally, we have
 
