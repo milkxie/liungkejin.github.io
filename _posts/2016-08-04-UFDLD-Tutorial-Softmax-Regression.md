@@ -1,8 +1,8 @@
 ---
 layout: post_layout
 title: UFDLD Tutorial Softmax Regression
-time: 2016年08月04日 星期四
-location: 南京
+time: 2016.8.4 Thursday
+location: Nanjing
 pulished: true
 excerpt_separator: "##"
 ---
