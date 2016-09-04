@@ -80,7 +80,7 @@ Finally, we have
 
 $$\color{black}{\begin{align}
 \hat\mu&=\dfrac{1}{N}\sum_{i=1}^{N}x_i\\
-\hat\Sigma&=\frac{1}{N}\sum_{i=1}{N}(x_i-\hat\mu)(x_i-\hat\mu)^T
+\hat\Sigma&=\frac{1}{N}\sum_{i=1}^{N}(x_i-\hat\mu)(x_i-\hat\mu)^T
 \end{align}}$$
 
 
