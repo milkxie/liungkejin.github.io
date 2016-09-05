@@ -21,7 +21,7 @@ $\color{black}{\Sigma}$ Covariance matrix
 * **Off-diagonal terms**: correlation
 * Properties of Covariance Matrix $\color{black} {\Sigma}$
    1. $\color{black} {\Sigma}$ is Symmetric and Positive Definite.
-   2. Diagonalization: $\color{black} {\Sigma}$ can be decomposed in the form of $\color{black}{UDU^T}.$($\color{black}{\rm D}$ is a Diagonal matrix.)   
+   2. Diagonalization: $\color{black} {\Sigma}$ can be decomposed in the form of $\color{black}{UDU^T.}$($\color{black}{\rm D}$ is a Diagonal matrix.)   
 
 
 ## MLE of Multivariate Gaussian
