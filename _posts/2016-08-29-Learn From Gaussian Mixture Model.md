@@ -13,8 +13,9 @@ excerpt_separator: "#"
 GMM can be written as a weighted sum of Gaussians,
 
 $$\color{black}{
-p(x)=\sum\limits_{k=1}^Kw_kg_k(x\mid \mu,\Sigma_k)
+p(x)=\sum\limits_{k=1}^Kw_kg_k(x\mid \mu_k,\Sigma_k)
 }$$
+
 $\color{black}{g_k}$ denotes a single Gaussian density of $\color{black}{\mu_k}$ and $\color{black}{\Sigma_k,}$ and $\color{black}{K}$ denote the number of Gaussian components.
 
 where,
